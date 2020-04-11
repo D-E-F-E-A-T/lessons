@@ -35,7 +35,7 @@ if(isset($_POST["cpfValidateSubmit"])) {
                     echo '<div class="notification">'.$message.'</div>';
                 }
             ?>
-            <form action="" method="post">
+            <form action="cpf.php" method="post">
                 <div class="field">
                     <label class="label">Digite o CPF</label>
                     <div class="control">
